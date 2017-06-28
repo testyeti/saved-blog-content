@@ -10,10 +10,15 @@ And that's, in short, is the reason I try to avoid using the language of "test c
 
 Another matter I want to address is the odd dichotomy created between "exploratory testing" and writing a test case. When you think about it closely, it is pretty much the same thing. When I spent some time writing down very detailed test cases, I could never do it without actually having the software and performing it at the same time, and I have yet to meet a tester who wrote a test plan without "winging it". Sure, some of us improvise magnificently using all sorts of techniques  - from equivalence partitioning to combinatorial testing to personas and use cases - but all of that charade is simply masking the fact that we apply our experience, skills and gut feelings to choosing the data and the techniques that will be applied (no, I'm not saying those techniques are a sophisticated fraud, they are valuable, very much so sometimes, but the skilled tester will know when to apply each technique or tool and when not to).
 I want to ask you to think of the following question: what would be the result of exploratory testing a requirements document?
+
 ...
+
 ...
+
 ...
+
 ...
+
 Done thinking? have your answer? Great. Unless, of course, your answer was "exploratory testing must have a working product to act upon", which is simply wrong. But in any other case, great. 
 My answer is - test plan. When I test a requirements document (for those who use the ISTQB vocabulary, please recall that a review is a form of a static test), I come up with a model of how the software is supposed to function, with questions pointing at gaps in this model, or inconsistencies in the requirements, I compose a list of risks that we might want to put some safeguards against (some of them may be "test this area once it's done and look for that sort of glitches") and I add my knowledge and experience back to the team. I was definitely testing, and since I was learning about the product during this activity, I would say it falls under the definition of "exploratory" part as well (Also, if we avoid quoting anonymous "gurus" and stick with quotes we can trace, I tend to agree with Bach & Bolton's definition, according to which all testing is exploratory).
 So, if we accept that writing a test plan is, in fact, an act of exploratory testing, why do we claim that executing the results is any different? And why do we insist on separating test execution from test planning? Sure, there are cases where we might want to plan more beforehand - to make sure we don't forget or to fight off some of the bias that we might have after testing the same thing for a while, but there are other cases where we might not want to do so. Relying on skilled testing allows us that freedom of doing what we think is right for our project. Which leads us back to why I don't like using the term "test case" - it just draws the focus from what's important.
